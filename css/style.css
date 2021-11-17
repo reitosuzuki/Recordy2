@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+/*共通*/
+html {
+  font-size: 100%;
+}
+body {
+   line-height: 1.7;
+   color: #432;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+
+
+/*header*/
+.logo {
+  width: 18rem;
+  margin-top: 5px;
+}
+
+.main-nav {
+  display: flex;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  margin-top: none;
+}
+.main-nav li {
+  margin-left: 36px;
+  margin-top: 30px;
+
+}
+.main-nav a {
+  color: #432;
+}
+.main-nav a:hover{
+  color: #0bd;
+}
+
+ul {
+  list-style: none;
+}
+.page-header {
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper {
+  max-width: 1450px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+.home-content {
+  text-align: center;
+  margin-top: 2%;
+
+}
+.home-content p {
+  font-size: 3rem;
+  margin: 10px 0 42px;
+
+}
+/*見出し*/
+.page-title {
+  font-size: 6.5rem;
+  font-family: 'Overpass', sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: #3bd8ff;
+}
+/*ボタン*/
+.button {
+  font-size: 1.375rem;
+  background: #0bd;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 18px 32px;
+}
+.button:hover {
+  background: #0090aa;
+}
