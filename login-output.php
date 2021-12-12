@@ -37,8 +37,15 @@ if (isset($_SESSION['customer'])) {
 	理科<input type="number" name="science">
 	その他<input type="number" name="others">
 	合計<input type="number" name="sam">
+
+	<input type="text" name="to_do_1">
+	<input type="text" name="to_do_2">
+	<input type="text" name="to_do_3">
+	
 	<input type="submit"  value="追加">
  </form>
+
+
 
 
 </body>
