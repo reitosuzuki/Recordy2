@@ -30,3 +30,14 @@ create table study_week (
     others int,
     foreign key(customer_id) references customer(id)
     );
+
+create table to_do (
+  id int auto_increment primary key,
+  customer_id int,
+  to_do_1 varchar(200),
+  to_do_2 varchar(200),
+  to_do_3 varchar(200),
+  created_at varchar(200),
+  foreign key(customer_id) references customer(id)
+  );
+)
